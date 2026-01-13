@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         Tribe CRM tools
 // @namespace    https://gesp.zn-man.nl/
-// @updateURL    https://raw.githubusercontent.com/DanielOndiordna/Tribe/master/dist/tribecrmtools.meta.js
-// @downloadURL  https://raw.githubusercontent.com/DanielOndiordna/Tribe/master/dist/tribecrmtools.user.js
+// @updateURL    https://github.com/DanielOndiordna/Tribe/raw/refs/heads/main/tribecrmtools.meta.js
+// @downloadURL  https://github.com/DanielOndiordna/Tribe/raw/refs/heads/main/tribecrmtools.user.js
 // @version      2026.1.13.2
 // @description  Dankzij deze plugin zijn er diverse tools om Tribe een beetje beter te maken. De instellingen en keuzes voor deze tools worden alleen opgeslagen in deze browser sessie en worden niet bewaard in Tribe.
 // @author       Daniel

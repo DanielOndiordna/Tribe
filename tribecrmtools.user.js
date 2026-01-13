@@ -3,7 +3,7 @@
 // @namespace    https://gesp.zn-man.nl/
 // @updateURL    https://github.com/DanielOndiordna/Tribe/raw/refs/heads/main/tribecrmtools.meta.js
 // @downloadURL  https://github.com/DanielOndiordna/Tribe/raw/refs/heads/main/tribecrmtools.user.js
-// @version      2026.1.13.2
+// @version      2026.1.13.3
 // @description  Dankzij deze plugin zijn er diverse tools om Tribe een beetje beter te maken. De instellingen en keuzes voor deze tools worden alleen opgeslagen in deze browser sessie en worden niet bewaard in Tribe.
 // @author       Daniel
 // @match        https://app.tribecrm.nl/*
@@ -17,6 +17,9 @@
 
     let changelog = `
 Changelog:
+
+versie 2026.1.13.3
+- minor fix voor de zoek tabs
 
 versie 2026.1.13.2
 - plugin versie geschikt gemaakt voor github
@@ -468,7 +471,7 @@ div.popupmessage.tribetoolsdisplay {
                 let searchtabbuttonselected = [...searchtabbuttons].find(button => button.classList.contains('Mui-selected'));
                 let searchbuttonsvisible = searchtabbuttons.length > 2 && ([...searchtabbuttons].filter(el => el.innerText.match(/Relaties|Relations|Activiteiten|Activities/)).length == 2);
                 let progressbar = document.querySelector('div[data-test-id="search-bar"] [role="progressbar"]');
-                let searchresultsrelations = [...document.querySelectorAll('[class*=card] [class*=header]')].filter(header => header.innerText.match(/(Klanten|Prospects|Medewerkers|Contactpersonen)/)).length > 1;
+                let searchresultsrelations = [...document.querySelectorAll('[class*=card] [class*=header]')].filter(header => header.innerText.match(/(Klanten|Prospects|Medewerkers|Contactpersonen)/)).length >= 1;
                 let searchresultsnothing = [...document.querySelectorAll('.MuiBox-root > div > strong')].find(strong => strong.innerText == searchinput.value);
                 // er komen resultaten, eerst onder Relaties, dit kunnen zijn: Klanten, Prospects, Medewerkers, Contactpersonen
                 // of:

@@ -1,8 +1,8 @@
 # Tribe
 Tribe CRM tools
 
-Dit is een plugin die je kunt installeren in Tampermonkey.
-Gebruik deze link om de plugin te installeren:
+Dit is een plugin die je kunt gebruiken in combinatie met Tampermonkey https://www.tampermonkey.net/.
+Gebruik vervolgens deze link om de plugin te installeren in Tampermonkey:
 https://github.com/DanielOndiordna/Tribe/raw/refs/heads/main/tribecrmtools.user.js
 
 Dankzij deze plugin zijn er diverse tools om Tribe een beetje beter te maken.

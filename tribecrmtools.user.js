@@ -18,6 +18,9 @@
     let changelog = `
 Changelog:
 
+versie 2026.1.13.2
+- plugin versie geschikt gemaakt voor github
+
 versie 2026.1.13.1
 - fix voor meerdere varianten van de tribe opmaak
 
